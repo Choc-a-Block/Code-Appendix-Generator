@@ -61,3 +61,4 @@ if __name__ == "__main__":
     parser.add_argument('--no-overwrite', dest='overwrite', action='store_false', help='Do not overwrite existing output file')
     args = parser.parse_args()
     main(args.use_apdxignore, args.output_file_path, args.directory, args.overwrite)
+    print("penis")
