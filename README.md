@@ -15,8 +15,7 @@ The `.apdx` file is a file that you can choose to add to your project. The purpo
 
 
 - `--whitelist`: Use the `.apdx` file to specify exactly which files to **include**. (Optional)
-- `--blacklist`: Use the `.apdx` file to specify exactly which files to **exclude**. (Optional)
-(The default behaviour is to use the .apdx file as an ignore list, similar to `.gitignore`)
+- `--blacklist`: Use the `.apdx` file to specify exactly which files to **exclude**. (Optional | Default Behaviour)
 - `--output`: Output file path. Default is `output.txt`. (Optional)
 - `--dir`: Directory to process. De`ault is the current directory. (Optional)
 - `--no-overwrite`: Do not overwrite existing output file. (Optional)
